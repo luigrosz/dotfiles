@@ -1,1 +1,1 @@
-# lgrz-dotfiles
+# dotfiles
