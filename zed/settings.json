@@ -7,16 +7,15 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "ui_font_size": 18,
-  "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "One Dark"
-  },
-  "buffer_font_family": "Consolas",
-  "buffer_font_size": 20,
-  "format_on_save": "on",
-  "tab_size": 2,
-  "formatter": "language_server",
-"soft_wrap": "editor_width"
+	"assistant": {
+		"default_model": {
+			"provider": "ollama",
+			"model": "deepseek-r1:7b"
+		},
+		"version": "2"
+	},
+	"soft_wrap": "editor_width",
+	"ui_font_size": 18,
+	"buffer_font_size": 17,
+	"tab_size": 2
 }

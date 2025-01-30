@@ -1,0 +1,6 @@
+[[keymaps]]
+command = "Shuffle"
+key_sequence = "j"
+[[keymaps]]
+command = "None"
+key_sequence = "q"
