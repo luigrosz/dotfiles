@@ -49,3 +49,10 @@
   ```
 
   you can finally move all the files from this repo
+
+  **Install this manually, it requires more configuration**
+  * postgreSQL
+  https://wiki.archlinux.org/title/PostgreSQL
+
+  * docker
+  https://wiki.archlinux.org/title/Docker
