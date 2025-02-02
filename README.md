@@ -42,7 +42,7 @@
   ```
 
   ```
-  yay -S zen-browser-bin vlc qbittorrent vesktop kate mise obs-studio spotify-player-full nordvpn-bin 1password eza zoxide zip unzip unrar wget whatsapp-desktop-client telegram-desktop steam foliate
+  yay -S zen-browser-bin vlc qbittorrent kitty-git vesktop kate mise obs-studio spotify-player-full nordvpn-bin 1password eza zoxide zip unzip unrar wget whatsapp-desktop-client telegram-desktop steam foliate
   ```
 
   ```
