@@ -12,7 +12,6 @@ eval "$(/usr/bin/mise activate zsh)"
 eval "$(zoxide init zsh)"
 
 alias ls="eza --icons"
-alias zed="zeditor"
 alias cd="z"
 alias spotify="spotify_player"
 
@@ -25,3 +24,5 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+export PATH=$HOME/.local/bin:$PATH
