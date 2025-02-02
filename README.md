@@ -49,6 +49,11 @@
   wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/FiraMono.zip && sudo mkdir -p /usr/local/share/fonts && sudo mkdir /usr/local/share/fonts/FiraMono && sudo mv ./FiraMono.zip /usr/local/share/fonts/FiraMono && cd /usr/local/share/fonts/FiraMono && sudo unzip FiraMono.zip && cd ~ && curl -sS https://starship.rs/install.sh | sh
   ```
 
+```
+curl -f https://zed.dev/install.sh | sh
+```
+
+
   you can finally move all the files from this repo
 
   **Install this manually, it requires more configuration**
