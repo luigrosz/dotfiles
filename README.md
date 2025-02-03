@@ -1,5 +1,5 @@
 # dotfiles
-  Default location to put all the files is ~/.config/, except .zshrc
+  Default location to put all the folders is ~/.config/
 
 # shit to get when formatting
   * yay
