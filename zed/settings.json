@@ -1,14 +1,14 @@
 {
   "assistant": {
     "default_model": {
-      "provider": "ollama",
-      "model": "deepseek-r1:7b"
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
     },
     "version": "2"
   },
   "soft_wrap": "editor_width",
-  "ui_font_size": 18,
-  "buffer_font_size": 17,
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
   "format_on_save": "on",
   "tab_size": 2,
   "formatter": "language_server",
@@ -24,5 +24,9 @@
     "svelte": true,
     "toml": true,
     "xml": true
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
   }
 }
