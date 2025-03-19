@@ -16,11 +16,11 @@
   * zed
   * vesktop
   * kate
+  * calibre
   * pinta
   * kitty
   * mise
   * obs-studio
-  * spotify-player (terminal)
   * nordvpn
   * 1password
   * qbittorrent
@@ -36,13 +36,15 @@
   * telegram
   * steam
   * foliate
+  * rsync
+  * strawberry
 
   ```
   yay -Syu
   ```
 
   ```
-  yay -S zen-browser-bin vlc pinta qbittorrent kitty-git vesktop kate mise obs-studio spotify-player-full nordvpn-bin 1password eza zoxide zip unzip unrar wget whatsapp-desktop-client telegram-desktop steam foliate
+  yay -S zen-browser-bin vlc pinta qbittorrent kitty-git vesktop kate mise obs-studio nordvpn-bin 1password eza zoxide zip unzip unrar wget whatsapp-desktop-client telegram-desktop steam foliate calibre rsync strawberry
   ```
 
   ```
