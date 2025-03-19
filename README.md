@@ -14,6 +14,7 @@
   ```
 
   * zed
+  * rsync (updater for zed)
   * vesktop
   * kate
   * calibre
@@ -36,7 +37,6 @@
   * telegram
   * steam
   * foliate
-  * rsync
   * strawberry
 
   ```
