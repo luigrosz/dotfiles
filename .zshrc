@@ -13,7 +13,6 @@ eval "$(zoxide init zsh)"
 
 alias ls="eza --icons"
 alias cd="z"
-alias spotify="spotify_player"
 
 bindkey '^H' backward-kill-word
 
