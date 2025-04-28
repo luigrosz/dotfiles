@@ -1,4 +1,13 @@
 {
+  "edit_predictions": {
+    "mode": "subtle",
+    "copilot": {
+      "proxy": null,
+      "proxy_no_verify": null
+    },
+    "enabled_in_assistant": false
+  },
+  "theme": "One Dark",
   "assistant": {
     "default_model": {
       "provider": "zed.dev",
