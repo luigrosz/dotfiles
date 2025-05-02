@@ -36,15 +36,16 @@
   * whatsapp
   * telegram
   * steam
-  * foliate
   * strawberry
+  * ffmpeg
+  * okular
 
   ```
   yay -Syu
   ```
 
   ```
-  yay -S zen-browser-bin vlc pinta qbittorrent kitty-git vesktop kate mise obs-studio nordvpn-bin 1password eza zoxide zip unzip unrar wget whatsapp-desktop-client telegram-desktop steam foliate calibre rsync strawberry
+  yay -S zen-browser-bin vlc pinta qbittorrent kitty-git vesktop kate mise obs-studio nordvpn-bin 1password eza zoxide zip unzip unrar wget whatsapp-desktop-client telegram-desktop steam calibre rsync strawberry ffmpeg okular
   ```
 
   ```
