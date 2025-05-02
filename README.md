@@ -39,13 +39,14 @@
   * strawberry
   * ffmpeg
   * okular
+  * obsidian
 
   ```
   yay -Syu
   ```
 
   ```
-  yay -S zen-browser-bin vlc pinta qbittorrent kitty-git vesktop kate mise obs-studio nordvpn-bin 1password eza zoxide zip unzip unrar wget whatsapp-desktop-client telegram-desktop steam calibre rsync strawberry ffmpeg okular
+  yay -S zen-browser-bin vlc pinta qbittorrent kitty-git vesktop kate mise obs-studio nordvpn-bin 1password eza zoxide zip unzip unrar wget whatsapp-desktop-client telegram-desktop steam calibre rsync strawberry ffmpeg okular obsidian
   ```
 
   ```
