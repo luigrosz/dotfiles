@@ -26,7 +26,6 @@
   * 1password
   * qbittorrent
   * vlc
-  * zen-browser
   * eza
   * zoxide
   * zip
@@ -40,13 +39,18 @@
   * ffmpeg
   * okular
   * obsidian
+  * hyprpaper
+  * hyprlock
+  * hypridle
+  * brave-bin
+  * hyprpanel
 
   ```
   yay -Syu
   ```
 
   ```
-  yay -S zen-browser-bin vlc pinta qbittorrent kitty-git vesktop kate mise obs-studio nordvpn-bin 1password eza zoxide zip unzip unrar wget whatsapp-desktop-client telegram-desktop steam calibre rsync strawberry ffmpeg okular obsidian
+  yay -S vlc pinta qbittorrent kitty-git vesktop kate mise obs-studio nordvpn-bin 1password eza zoxide zip unzip unrar wget whatsapp-desktop-client telegram-desktop steam calibre rsync strawberry ffmpeg okular obsidian hyprpaper hyprlock hypridle brave-bin ags-hyprpanel-git
   ```
 
   ```
@@ -57,8 +61,15 @@
 curl -f https://zed.dev/install.sh | sh
 ```
 
+you can finally move all the files from this repo
 
-  you can finally move all the files from this repo
+sync with brave (need ssh key):
+
+```
+git clone git@github.com:luigrosz/misc.git
+```
+
+
 
   **Install this manually, it requires more configuration**
   * postgreSQL
