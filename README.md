@@ -44,13 +44,15 @@
   * hypridle
   * brave-bin
   * hyprpanel
+  * rainfrog
+
 
   ```
   yay -Syu
   ```
 
   ```
-  yay -S vlc pinta qbittorrent kitty-git vesktop kate mise obs-studio nordvpn-bin 1password eza zoxide zip unzip unrar wget whatsapp-desktop-client telegram-desktop steam calibre rsync strawberry ffmpeg okular obsidian hyprpaper hyprlock hypridle brave-bin ags-hyprpanel-git noto-color-emoji-fontconfig
+  yay -S vlc pinta qbittorrent kitty-git vesktop kate mise obs-studio nordvpn-bin 1password eza zoxide zip unzip unrar wget whatsapp-desktop-client telegram-desktop steam calibre rsync strawberry ffmpeg okular obsidian hyprpaper hyprlock hypridle brave-bin ags-hyprpanel-git noto-color-emoji-fontconfig rainfrog
   ```
 
   ```
