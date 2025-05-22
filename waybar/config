@@ -1,14 +1,13 @@
 {
     // "layer": "top", // Waybar at top layer
     // "position": "bottom", // Waybar position (top|bottom|left|right)
-    "height": 24, // Waybar height (to be removed for auto height)
-    // "width": 1280, // Waybar width
-    //"spacing": 4, // Gaps between modules (4px)
+    "height": 32, // Waybar height (to be removed for auto height)
+    "spacing": 5, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces", "hyprland/mode", "hyprland/scratchpad", "custom/media"],
     "modules-center": ["hyprland/window"],
     //"modules-right": ["mpd", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "battery", "battery#bat2", "clock", "tray"],
-    "modules-right": ["mpd", "idle_inhibitor", "temperature", "cpu", "memory","network", "pulseaudio", "backlight", "keyboard-state", "battery", "battery#bat2", "tray", "clock"],
+    "modules-right": ["mpd", "idle_inhibitor", "pulseaudio", "tray", "clock"],
     // Modules configuration
     // "hyprland/workspaces": {
     //     "disable-scroll": true,
@@ -89,10 +88,10 @@
         "spacing": 10
     },
     "clock": {
-        "timezone": "America/Sao_Paulo",
+        "timezone": "Etc/GMT-0",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         //"format-alt": "{:%Y-%m-%d}"
-        "format": "{:L%Y-%m-%d<small>[%a]</small> <tt><small>%p</small></tt>%I:%M}"
+        "format": "{:L%d-%m-%Y %I:%M <tt><small>%p</small></tt>}"
         //"format": "{:%Y-%m-%d %H:%M}"
     },
     "cpu": {
