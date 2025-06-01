@@ -1,6 +1,6 @@
 window {
   margin: 0px;
-  border: 1px solid #494d64;
+  /* border: 1px solid #494d64; */
   width: 40%;
   border-radius: 4px;
 }
@@ -9,6 +9,8 @@ window {
   margin: 8px;
   border: none;
   background-color: #44475a;
+  color: white;
+  caret-color: transparent;
 }
 
 #inner-box {
@@ -27,19 +29,20 @@ window {
 }
 
 #text {
-  color: #cad3f5;
+  color: black;
   border: none;
 }
 
-#entry.activatable #text {
-}
+#entry.activatable #text {}
 
-#entry > * {
-}
+#entry>* {}
 
 #entry:selected {
   background-color: #494d64;
+  /* color: white; */
 }
+
 #entry:selected #text {
   font-weight: bold;
+  color: white;
 }
