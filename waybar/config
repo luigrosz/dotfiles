@@ -88,7 +88,7 @@
         "spacing": 10
     },
     "clock": {
-        "timezone": "Etc/GMT-0",
+        "timezone": "Etc/GMT-3",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         //"format-alt": "{:%Y-%m-%d}"
         "format": "{:L%d-%m-%Y %I:%M <tt><small>%p</small></tt>}"
