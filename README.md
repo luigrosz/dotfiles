@@ -56,7 +56,7 @@
   ```
 
   ```
-  yay -S vlc pinta qbittorrent kitty-git vesktop kate mise obs-studio nordvpn-bin 1password eza zoxide zip unzip unrar wget whatsapp-desktop-client telegram-desktop steam calibre rsync strawberry ffmpeg okular obsidian hyprpaper hyprlock hypridle brave-bin ags-hyprpanel-git noto-color-emoji-fontconfig rainfrog grim slurp wl-clipboard noto-fonts noto-fonts-cjk fonts-noto-color-emoji noto-fonts-emoji ttf-jetbrains-mono cava
+  yay -S vlc pinta qbittorrent kitty-git vesktop kate mise obs-studio nordvpn-bin 1password eza zoxide zip unzip unrar wget whatsapp-desktop-client telegram-desktop steam calibre rsync strawberry ffmpeg okular obsidian hyprpaper hyprlock hypridle brave-bin ags-hyprpanel-git noto-color-emoji-fontconfig rainfrog grim slurp wl-clipboard noto-fonts noto-fonts-cjk fonts-noto-color-emoji noto-fonts-emoji ttf-jetbrains-mono cava waybar-mpris-git 
   ```
 
   ```
