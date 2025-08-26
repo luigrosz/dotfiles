@@ -13,6 +13,7 @@ eval "$(zoxide init zsh)"
 
 alias ls="eza --icons"
 alias cd="z"
+alias zed="zeditor"
 
 bindkey '^H' backward-kill-word
 
