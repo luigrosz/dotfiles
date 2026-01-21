@@ -1,7 +1,7 @@
 # dotfiles
   Default location to put all the folders is ~/.config/
 
-# shit to get when formatting
+# software to get
   * yay
   * zsh
 
