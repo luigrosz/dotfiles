@@ -72,13 +72,9 @@
 
 you can finally move all the files from this repo
 
-sync with brave (need ssh key):
+sync brave
 
-```
-git clone git@github.com:luigrosz/misc.git
-```
-
-set now the theme with nwg-look to everforest
+set the theme with nwg-look to everforest
 
   **Install this manually, it requires more configuration**
   * postgreSQL
