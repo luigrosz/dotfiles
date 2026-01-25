@@ -1,0 +1,61 @@
+{
+  "hyprland/workspaces": {
+    "disable-scroll": true,
+    "on-click": "activate",
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1"
+  },
+  "custom/launcher": {
+    "interval": "once",
+    "format": "󰣇",
+    "on-click": "pkill wofi || wofi --show drun --term=kitty --width=20% --height=50% --columns 1 -I -s ~/.config/wofi/themes/everforest-light.css -o $MAIN_DISPLAY",
+    "tooltip": false
+  },
+  "pulseaudio": {
+    "format": "{icon}  {volume}%",
+    "format-muted": "󰝟 MUTE",
+    "format-icons": { "default": ["", "", ""] },
+    "on-click": "pavucontrol",
+    "on-click-right": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "scroll-step": 3,
+    "tooltip": false
+  },
+  "network": {
+    "format-wifi": " {signalStrength}%",
+    "format-disconnected": "󰤭"
+  },
+  "battery": {
+    "format": "{icon} {capacity}%",
+    "format-icons": ["", "", "", "", ""]
+  },
+  "clock": {
+    "format": " {:%H:%M}",
+    "tooltip-format": "{calendar}",
+    "calendar": {
+      "mode"          : "month",
+      "mode-mon-col"  : 3,
+      "on-scroll"     : 1,
+      "format": {
+          "months":     "<span color='#ffead3'><b>{}</b></span>",
+          "days":       "<span color='#ecc6d9'><b>{}</b></span>",
+          "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+          "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
+          "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+      }
+      },
+      "actions":  {
+        "on-click-right": "mode",
+        "on-scroll-up": "shift_up",
+        "on-scroll-down": "shift_down"
+      }
+  },
+  "clock#date": {
+    "format": " {:%d %B, %A, %Y}",
+    "tooltip": false
+  },
+  "custom/powermenu": {
+    "format": "",
+    "on-click": "pkill wofi || sh ~/.config/waybar/scripts/power-menu/powermenu.sh 'everforest-light' '--height=17% -o $MAIN_DISPLAY'",
+    "tooltip": false
+  }
+}

@@ -1,194 +1,40 @@
 [
   {
+    "include": ["~/.config/waybar/modules.json"],
     "output": "DP-1",
-    "height": 32,
-    "spacing": 5,
-    "modules-left": ["hyprland/workspaces"],
-    "modules-center": ["custom/waybar-mpris"],
-    "modules-right": ["idle_inhibitor", "pulseaudio", "tray", "clock"],
+    "layer": "top",
+    "modules-left": ["clock", "clock#date"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["custom/powermenu", "pulseaudio"],
 
-    "custom/waybar-mpris": {
-      "return-type": "json",
-      "exec": "waybar-mpris --position --autofocus --order 'SYMBOL:TITLE:ARTIST:POSITION'",
-      "on-click": "waybar-mpris --send toggle",
-      "on-scroll-up": "waybar-mpris --send player-next",
-      "on-scroll-down": "waybar-mpris --send player-prev",
-      "escape": true
+    "hyprland/workspaces": {
+        "all-outputs": false,
+        "persistent-workspaces": { "1": [], "2": [], "3": [], "4": [], "5": [] }
     },
-    "idle_inhibitor": {
-      "format": "{icon}",
-      "format-icons": {
-        "activated": "",
-        "deactivated": ""
-      }
+
+    "custom/launcher": {
+        "on-click": "pkill wofi || wofi --show drun --term=kitty --width=20% --height=50% --columns 1 -I -s ~/.config/wofi/themes/everforest-light.css -o DP-1"
     },
-    "tray": {
-      "spacing": 10
-    },
-    "clock": {
-      "timezone": "Etc/GMT+3",
-      "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-      "format": "{:L%d-%m-%Y %I:%M <tt><small>%p</small></tt>}"
-    },
-    "cpu": {
-      "format": " {usage}%"
-    },
-    "memory": {
-      "format": " {}%"
-    },
-    "temperature": {
-      "thermal-zone": 2,
-      "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
-      "critical-threshold": 80,
-      "format-critical": "{icon} {temperatureC}°C",
-      "format": "{icon} {temperatureC}°C",
-      "format-icons": ["", "", ""]
-    },
-    "backlight": {
-      "format": "{icon} {percent}%",
-      "format-icons": ["", "", "", "", "", "", "", "", ""]
-    },
-    "battery": {
-      "states": {
-        "warning": 30,
-        "critical": 15
-      },
-      "format": "{icon} {capacity}%",
-      "format-charging": " {capacity}%",
-      "format-plugged": " {capacity}%",
-      "format-alt": "{icon} {time}",
-      "format-icons": ["", "", "", "", ""]
-    },
-    "battery#bat2": {
-      "bat": "BAT2"
-    },
-    "network": {
-      "format-wifi": "{essid} ({signalStrength}%) ",
-      "format-ethernet": " {ifname}",
-      "tooltip-format": " {ifname} via {gwaddr}",
-      "format-linked": " {ifname} (No IP)",
-      "format-disconnected": "Disconnected ⚠ {ifname}",
-      "format-alt": " {ifname}: {ipaddr}/{cidr}"
-    },
-    "pulseaudio": {
-      "scroll-step": 5,
-      "format": "{icon}   {volume}% {format_source}",
-      "format-bluetooth": " {icon} {volume}% {format_source}",
-      "format-bluetooth-muted": "  {icon} {format_source}",
-      "format-muted": "  {format_source}",
-      "format-source": " {volume}%",
-      "format-source-muted": "",
-      "format-icons": {
-        "default": ["", "", ""]
-      },
-      "on-click": "pavucontrol",
-      "on-click-right": "foot -a pw-top pw-top"
-    },
-    "custom/media": {
-      "format": "{icon} {}",
-      "return-type": "json",
-      "max-length": 40,
-      "format-icons": {
-        "spotify": "",
-        "default": "🎜"
-      },
-      "escape": true,
-      "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null"
+
+    "custom/powermenu": {
+        "on-click": "pkill wofi || sh .config/wofi/scripts/powermenu.sh 'everforest-light' '--height=17% -o DP-1'"
     }
   },
   {
+    "include": ["~/.config/waybar/modules.json"],
     "output": "DP-2",
-    "height": 32,
-    "spacing": 5,
-    "modules-left": ["hyprland/workspaces"],
-    "modules-center": ["custom/waybar-mpris"],
-    "modules-right": ["idle_inhibitor", "pulseaudio", "tray", "clock"],
+    "layer": "top",
+    "modules-left": [ "clock"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["pulseaudio"],
 
-    "custom/waybar-mpris": {
-      "return-type": "json",
-      "exec": "waybar-mpris --position --autofocus --order 'SYMBOL:TITLE:ARTIST:POSITION'",
-      "on-click": "waybar-mpris --send toggle",
-      "escape": true
+    "hyprland/workspaces": {
+        "all-outputs": false,
+        "persistent-workspaces": { "6": [], "7": [], "8": [], "9": [], "10": [] }
     },
-    "idle_inhibitor": {
-      "format": "{icon}",
-      "format-icons": {
-        "activated": "",
-        "deactivated": ""
-      }
-    },
-    "tray": {
-      "spacing": 10
-    },
-    "clock": {
-      "timezone": "Etc/GMT+3",
-      "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-      "format": "{:L%d-%m-%Y %I:%M <tt><small>%p</small></tt>}"
-    },
-    "cpu": {
-      "format": " {usage}%"
-    },
-    "memory": {
-      "format": " {}%"
-    },
-    "temperature": {
-      "thermal-zone": 2,
-      "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
-      "critical-threshold": 80,
-      "format-critical": "{icon} {temperatureC}°C",
-      "format": "{icon} {temperatureC}°C",
-      "format-icons": ["", "", ""]
-    },
-    "backlight": {
-      "format": "{icon} {percent}%",
-      "format-icons": ["", "", "", "", "", "", "", "", ""]
-    },
-    "battery": {
-      "states": {
-        "warning": 30,
-        "critical": 15
-      },
-      "format": "{icon} {capacity}%",
-      "format-charging": " {capacity}%",
-      "format-plugged": " {capacity}%",
-      "format-alt": "{icon} {time}",
-      "format-icons": ["", "", "", "", ""]
-    },
-    "battery#bat2": {
-      "bat": "BAT2"
-    },
-    "network": {
-      "format-wifi": "{essid} ({signalStrength}%) ",
-      "format-ethernet": " {ifname}",
-      "tooltip-format": " {ifname} via {gwaddr}",
-      "format-linked": " {ifname} (No IP)",
-      "format-disconnected": "Disconnected ⚠ {ifname}",
-      "format-alt": " {ifname}: {ipaddr}/{cidr}"
-    },
-    "pulseaudio": {
-      "scroll-step": 5,
-      "format": "{icon}   {volume}% {format_source}",
-      "format-bluetooth": " {icon} {volume}% {format_source}",
-      "format-bluetooth-muted": "  {icon} {format_source}",
-      "format-muted": "  {format_source}",
-      "format-source": " {volume}%",
-      "format-source-muted": "",
-      "format-icons": {
-        "default": ["", "", ""]
-      },
-      "on-click": "pavucontrol",
-      "on-click-right": "foot -a pw-top pw-top"
-    },
-    "custom/media": {
-      "format": "{icon} {}",
-      "return-type": "json",
-      "max-length": 40,
-      "format-icons": {
-        "spotify": "",
-        "default": "🎜"
-      },
-      "escape": true,
-      "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null"
+
+    "custom/launcher": {
+        "on-click": "pkill wofi || wofi --show drun --term=kitty --width=20% --height=50% --columns 1 -I -s ~/.config/wofi/themes/everforest-light.css -o DP-2"
     }
-  }
+    }
 ]

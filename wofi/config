@@ -1,6 +1,8 @@
-prompt=
+mode=drun
 allow_images=true
+image_size=40
+term=kitty
 insensitive=true
 location=center
-width=600px
-border-width=0
+no_actions=true
+prompt=Search
