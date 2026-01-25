@@ -55,7 +55,7 @@
   },
   "custom/powermenu": {
     "format": "",
-    "on-click": "pkill wofi || sh ~/.config/waybar/scripts/power-menu/powermenu.sh 'everforest-light' '--height=17% -o $MAIN_DISPLAY'",
+    "on-click": "pkill wofi || sh ~/.config/waybar/scripts/power-menu/powermenu.sh 'everforest-light' '--height=17%",
     "tooltip": false
   }
 }

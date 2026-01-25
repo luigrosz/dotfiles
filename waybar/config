@@ -5,20 +5,18 @@
     "layer": "top",
     "modules-left": ["clock", "clock#date"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["custom/powermenu", "pulseaudio"],
+    "modules-right": ["tray", "pulseaudio"],
 
     "hyprland/workspaces": {
         "all-outputs": false,
         "persistent-workspaces": { "1": [], "2": [], "3": [], "4": [], "5": [] }
     },
 
-    "custom/launcher": {
-        "on-click": "pkill wofi || wofi --show drun --term=kitty --width=20% --height=50% --columns 1 -I -s ~/.config/wofi/themes/everforest-light.css -o DP-1"
-    },
-
-    "custom/powermenu": {
-        "on-click": "pkill wofi || sh .config/wofi/scripts/powermenu.sh 'everforest-light' '--height=17% -o DP-1'"
+    "tray": {
+    "icon-size": 21,
+    "spacing": 10
     }
+
   },
   {
     "include": ["~/.config/waybar/modules.json"],
@@ -26,15 +24,17 @@
     "layer": "top",
     "modules-left": [ "clock"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["pulseaudio"],
+    "modules-right": ["tray", "pulseaudio"],
 
     "hyprland/workspaces": {
         "all-outputs": false,
         "persistent-workspaces": { "6": [], "7": [], "8": [], "9": [], "10": [] }
     },
 
-    "custom/launcher": {
-        "on-click": "pkill wofi || wofi --show drun --term=kitty --width=20% --height=50% --columns 1 -I -s ~/.config/wofi/themes/everforest-light.css -o DP-2"
+    "tray": {
+    "icon-size": 23,
+    "spacing": 10
     }
+
     }
 ]

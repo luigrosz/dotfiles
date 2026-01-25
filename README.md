@@ -1,5 +1,5 @@
 # dotfiles
-  Default location to put all the folders is ~/.config/ EXCEPT .themes, put this in ~/
+  Default location to put all the folders is ~/.config/ (EXCEPT .themes, .icons and fonts), put these in ~/
 
 # software to get
   * yay
@@ -59,7 +59,7 @@
   ```
 
   ```
-  yay -S vlc nemo pinta qbittorrent kitty-git vesktop kate mise obs-studio nordvpn-bin 1password eza zoxide zip unzip unrar wget whatsapp-desktop-client telegram-desktop steam calibre rsync strawberry ffmpeg obsidian hyprpaper hyprlock hypridle brave-bin ags-hyprpanel-git noto-color-emoji-fontconfig rainfrog grim slurp wl-clipboard noto-fonts noto-fonts-cjk fonts-noto-color-emoji noto-fonts-emoji ttf-jetbrains-mono cava waybar-mpris-git zed macos-tahoe-cursor gtk-engine-murrine nwg-look wtype
+  yay -S vlc nemo pinta qbittorrent kitty-git vesktop kate mise obs-studio nordvpn-bin 1password eza zoxide zip unzip unrar wget whatsapp-desktop-client telegram-desktop steam calibre rsync strawberry ffmpeg obsidian hyprpaper hyprlock hypridle brave-bin ags-hyprpanel-git noto-color-emoji-fontconfig rainfrog grim slurp wl-clipboard noto-fonts noto-fonts-cjk fonts-noto-color-emoji noto-fonts-emoji ttf-jetbrains-mono cava waybar-mpris-git zed macos-tahoe-cursor gtk-engine-murrine nwg-look wtype sassc gtk-engine-murrine gnome-themes-extra
   ```
 
   ```
