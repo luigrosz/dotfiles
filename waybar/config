@@ -22,7 +22,7 @@
     "include": ["~/.config/waybar/modules.json"],
     "output": "DP-2",
     "layer": "top",
-    "modules-left": [ "clock"],
+    "modules-left": [ "clock", "clock#date"],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": ["tray", "pulseaudio"],
 

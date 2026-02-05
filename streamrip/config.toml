@@ -1,6 +1,6 @@
 [downloads]
 # Folder where tracks are downloaded to
-folder = "~/Music"
+folder = "/home/luigr/Music"
 # Put Qobuz albums in a 'Qobuz' folder, Tidal albums in 'Tidal' etc.
 source_subdirectories = false
 # Put tracks in an album with 2 or more discs into a subfolder named `Disc N`
@@ -62,7 +62,7 @@ quality = 2
 # An authentication cookie that allows streamrip to use your Deezer account
 # See https://github.com/nathom/streamrip/wiki/Finding-Your-Deezer-ARL-Cookie
 # for instructions on how to find this
-arl = "ebcda0f217eb8090050aa1e04e0ba3a7a648f568cd60a4b822d30a03e8ac6df2b197fb36fb3da70b443727fdbf04e26106e9b69384bb4c24d67177d1e01df2159a7e092904c090c340adb72805bf372a8ffc28aab60f935530d01a77c952938e"
+arl = "d8619440c90a2f5a5da6280d7dd2772242e6bfb8538de89dc6555a4e2bd86a37396ab8bfed043efe9124842e1902c06565770c68f6e5b7771fbcd0c2f32967fbcf931b99fc716eb50ff294aa415df565ea512e54555f730e1fcbf43f7f22f868"
 # This allows for free 320kbps MP3 downloads from Deezer
 # If an arl is provided, deezloader is never used
 use_deezloader = true
@@ -83,7 +83,7 @@ quality = 0
 # Download the video along with the audio
 download_videos = false
 # The path to download the videos to
-video_downloads_folder = "~/StreamripDownloads/YouTubeVideos"
+video_downloads_folder = "/home/luigr/StreamripDownloads/YouTubeVideos"
 
 [database]
 # Create a database that contains all the track IDs downloaded so far
@@ -91,11 +91,11 @@ video_downloads_folder = "~/StreamripDownloads/YouTubeVideos"
 # This can be disabled temporarily with the --no-db flag
 downloads_enabled = false
 # Path to the downloads database
-downloads_path = "~/.config/streamrip/downloads.db"
+downloads_path = "/home/luigr/.config/streamrip/downloads.db"
 # If a download fails, the item ID is stored here. Then, `rip repair` can be
 # called to retry the downloads
 failed_downloads_enabled = true
-failed_downloads_path = "~/.config/streamrip/failed_downloads.db"
+failed_downloads_path = "/home/luigr/.config/streamrip/failed_downloads.db"
 
 # Convert tracks to a codec after downloading them.
 [conversion]

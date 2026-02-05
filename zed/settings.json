@@ -1,4 +1,12 @@
 {
+  /* Duplicated key auto-commented: "agent": {
+    "default_model": {
+      "provider": "google",
+      "model": "gemini-3-flash-preview"
+    },
+    "default_profile": "write",
+    "model_parameters": []
+  }, */
   "language_models": {
     "openai_compatible": {
       "Qwen2.5-coder": {
