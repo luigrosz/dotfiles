@@ -7,6 +7,18 @@
     "default_profile": "write",
     "model_parameters": []
   }, */
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
   "language_models": {
     "openai_compatible": {
       "Qwen2.5-coder": {
@@ -39,6 +51,7 @@
   },
   "theme": "One Dark",
   "agent": {
+    "dock": "right",
     "favorite_models": [
       {
         "provider": "Qwen2.5-coder",

@@ -16,7 +16,6 @@
     "icon-size": 21,
     "spacing": 10
     }
-
   },
   {
     "include": ["~/.config/waybar/modules.json"],

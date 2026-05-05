@@ -1,5 +1,4 @@
 export ZSH_COMPDUMP="${ZDOTDIR:-$HOME}/.zcompdump"
-zstyle ':omz:alpha:lib:completion' autoreload false
 
 DISABLE_AUTO_UPDATE="true"
 export ZSH="$HOME/.oh-my-zsh"
@@ -45,3 +44,23 @@ fi
     zcompile "$ZSH_COMPDUMP"
   fi
 } &!
+
+# pnpm
+export PNPM_HOME="/home/luigr/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+# bun completions
+[ -s "/home/luigr/.bun/_bun" ] && source "/home/luigr/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+export ANDROID_HOME=$HOME/Android/Sdk
+export ANDROID_SDK_ROOT=$ANDROID_HOME
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$ANDROID_HOME/emulator
