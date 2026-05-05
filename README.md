@@ -59,7 +59,13 @@
   ```
 
   ```
-  yay -S vlc nemo pinta qbittorrent kitty-git vesktop kate mise obs-studio nordvpn-bin 1password eza zoxide zip unzip unrar wget whatsapp-desktop-client telegram-desktop steam calibre rsync strawberry ffmpeg obsidian hyprpaper hyprlock hypridle brave-bin noto-color-emoji-fontconfig rainfrog grim slurp wl-clipboard noto-fonts noto-fonts-cjk noto-color-emoji-fontconfig noto-fonts-emoji ttf-jetbrains-mono cava waybar zed macos-tahoe-cursor gtk-engine-murrine nwg-look wtype sassc gtk-engine-murrine gnome-themes-extra
+  yay -S \
+vlc nemo pinta qbittorrent kitty-git vesktop-bin kate mise obs-studio \
+nordvpn-bin 1password eza zoxide zip unzip unrar wget \
+whatsapp-desktop-bin telegram-desktop steam calibre rsync strawberry \
+ffmpeg obsidian-bin hyprpaper hyprlock hypridle brave-bin \
+noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-jetbrains-mono cava waybar \
+zed macos-tahoe-cursor gtk-engine-murrine nwg-look wtype sassc gnome-themes-extra
   ```
 
   ```
