@@ -58,7 +58,7 @@
   ```
   yay -S \
 vlc nemo pinta qbittorrent kitty-git vesktop-bin kate mise obs-studio \
-nordvpn-bin 1password eza zoxide zip unzip unrar wget \
+nordvpn-bin 1password eza zoxide zip unzip unrar wget wireplumber \
 zapzap telegram-desktop steam calibre rsync strawberry \
 ffmpeg obsidian-bin brave-bin noctalia-shell pavucontrol \
 noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-jetbrains-mono cava \
