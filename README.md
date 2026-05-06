@@ -60,7 +60,7 @@
 vlc nemo pinta qbittorrent kitty-git vesktop-bin kate mise obs-studio \
 nordvpn-bin 1password eza zoxide zip unzip unrar wget \
 zapzap telegram-desktop steam calibre rsync strawberry \
-ffmpeg obsidian-bin brave-bin noctalia-shell \
+ffmpeg obsidian-bin brave-bin noctalia-shell pavucontrol \
 noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-jetbrains-mono cava \
 zed macos-tahoe-cursor gtk-engine-murrine nwg-look wtype sassc gnome-themes-extra
   ```
