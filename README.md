@@ -62,7 +62,12 @@ nordvpn-bin 1password eza zoxide zip unzip unrar wget wireplumber kwallet-pam \
 zapzap telegram-desktop steam calibre rsync strawberry pipewire-pulse \
 ffmpeg obsidian-bin brave-bin noctalia-shell pavucontrol wl-clipboard \
 noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-jetbrains-mono cava kwalletmanager \
-zed macos-tahoe-cursor gtk-engine-murrine nwg-look wtype sassc gnome-themes-extra
+zed macos-tahoe-cursor gtk-engine-murrine nwg-look wtype sassc gnome-themes-extra \
+chromium-extension-keepassxc-browser
+  ```
+
+  ```
+  flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo && flatpak install --user flathub org.keepassxc.KeePassXC
   ```
 
   ```
